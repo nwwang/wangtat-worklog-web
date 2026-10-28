@@ -22,3 +22,10 @@ Open that URL on your phone browser to try the app. You can also use “Add to H
 ## Note
 
 Private source repo (optional / ignore): https://github.com/nwwang/wangtat-worklog-pwa
+
+## App features (local)
+
+- Keyword search across work logs
+- Separate storage buckets for 有保養 / 無保養
+- Monthly files named like `11月 November, 2026` (export JSON/CSV per bucket)
+
