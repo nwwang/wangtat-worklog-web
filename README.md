@@ -1,31 +1,20 @@
 # Wang Tat 工作紀錄 (PWA)
 
-Internal work-log web app for **Wang Tat Engineering Equipment Co. Limited**.  
-Phone browser / PWA first; data starts in local storage (Supabase keys optional later).
+Internal work-log web app for **Wang Tat Engineering Equipment Co. Limited**.
 
-Public Pages site lives in the **`docs/`** folder of this repo.
+Site: **https://nwwang.github.io/wangtat-worklog-web/**
 
-## Enable GitHub Pages (free)
+## Features
 
-1. Open https://github.com/nwwang/wangtat-worklog-web
-2. **Settings** → **Pages** (left sidebar)
-3. Under **Build and deployment** → **Source**, choose **Deploy from a branch**
-4. Branch: **`main`**
-5. Folder: **`/docs`**
-6. Click **Save**
-7. Wait 1–2 minutes; the site URL will appear on the same page:
+- Keyword search
+- Separate 有保養 / 無保養 storage
+- Monthly files (e.g. `11月 November, 2026`) with JSON/CSV export
+- **雲端同步** via Supabase free tier (anon key baked into build; protected by RLS)
 
-   **https://nwwang.github.io/wangtat-worklog-web/**
+## Phone tip
 
-Open that URL on your phone browser to try the app. You can also use “Add to Home Screen” for a PWA-like icon.
+If you already had logs only on one phone, open the updated site **on that phone first** once — it will auto-upload local logs to the cloud (one-time). Then other devices will see them.
 
-## Note
+## GitHub Pages
 
-Private source repo (optional / ignore): https://github.com/nwwang/wangtat-worklog-pwa
-
-## App features (local)
-
-- Keyword search across work logs
-- Separate storage buckets for 有保養 / 無保養
-- Monthly files named like `11月 November, 2026` (export JSON/CSV per bucket)
-
+Source: branch `main` / folder `/docs`.
