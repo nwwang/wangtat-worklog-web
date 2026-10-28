@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/wangtat-worklog-web/sw.js', { scope: '/wangtat-worklog-web/' })})}
